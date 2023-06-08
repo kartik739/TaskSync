@@ -3,7 +3,10 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main >
-      <h1>Trello 3.0</h1>
+      {/*Header */}
+      <Header />
+      {/*Board */}
+      <h1>TaskSync</h1>
     </main>
   )
 }
