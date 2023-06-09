@@ -1,7 +1,7 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'TaskSync',
+  title: 'Trello 2.0',
   description: 'Created by Kartik Goel',
 }
 

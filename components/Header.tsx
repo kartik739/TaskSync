@@ -1,13 +1,23 @@
 import Image from "next/image";
+import { MagnifyingGlassIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 
 function Header() {
     return (
     <header>
-        <Image src="https://drive.google.com/file/d/16xMvUGMX8H3orNaEkB7OG1OdqEgvdIPC/view?usp=sharing"
-            alt="TaskSync Logo" width={300} height={100}
-            className="w-44 md:w-56 pb-10 md:pb-0 object-contain"       
+        <Image src="https://links.papareact.com/c2cdd5"
+        alt="Trello logo"
+        width={300}
+        height={100}
         />
-        
+        <div>
+            {/*search box */}
+            <form className="flex items-center space-x-5 bg-white rounded-md p-2 shadow-md flex-1 md:flex  ">
+                <MagnifyingGlassIcon className="h-6 w-6  text-gray-400"/>
+                <input type="text" placeholder="Search"/>
+                <button hidden>Search</button>
+            </form>
+            {/*Avatar */}
+        </div>
     </header>
     );
 
