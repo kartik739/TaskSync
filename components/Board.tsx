@@ -9,14 +9,14 @@ function Board() {
 
   },[])
 
-  return 
+  return (
     <DragDropContext>
         <Droppable droppableId="board" direction="horizontal" type="column">
           {(provided) => <div>{/* renders all the columns */}</div>}
 
         </Droppable>
-    </DragDropContext>;
-  
+    </DragDropContext>
+  );
 }
 
 export default Board 
